@@ -38,5 +38,15 @@ public class SchoolKlass {
     }
 
     public void addStudent(Student student) {
+        this.students.add(student);
+        sendMessage(student.introduce()+"now");
+    }
+
+    private void sendMessage(String message) {
+        for (Student student1 : this.students){
+            student1.getMessage(message);
+        }
+        teacher.getMessage(message);
+
     }
 }
