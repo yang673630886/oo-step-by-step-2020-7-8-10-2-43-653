@@ -2,12 +2,12 @@ package com.thoughtworks.basic;
 
 import java.util.List;
 
-public class Class {
+public class SchoolKlass {
     private int classNumber;
     private List<Student> students;
     private Teacher teacher;
 
-    public Class(int classNumber, List<Student> students, Teacher teacher) {
+    public SchoolKlass(int classNumber, List<Student> students, Teacher teacher) {
         this.classNumber = classNumber;
         this.students = students;
         this.teacher = teacher;
@@ -35,5 +35,8 @@ public class Class {
 
     public void setTeacher(Teacher teacher) {
         this.teacher = teacher;
+    }
+
+    public void addStudent(Student student) {
     }
 }

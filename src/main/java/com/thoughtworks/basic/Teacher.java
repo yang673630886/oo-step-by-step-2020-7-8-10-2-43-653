@@ -1,9 +1,9 @@
 package com.thoughtworks.basic;
 
 public class Teacher extends Person {
-    public  Teacher(int age, String name, String job) {
+    public  Teacher(int age, String name,String job) {
         super(age, name);
-        this.job = job;
+        this.job=job;
     }
 
     private String job;
