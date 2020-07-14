@@ -11,7 +11,7 @@ public class StudentTest {
     @Test
     public void should_return_introduce_when_introduce() {
         //given
-        Student student = new Student(21,"Tom",2);
+        Student student = new Student(21,"Tom",1);
         //when
         String result = student.introduce();
         //then
