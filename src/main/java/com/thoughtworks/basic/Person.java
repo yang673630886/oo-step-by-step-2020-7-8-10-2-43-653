@@ -10,7 +10,7 @@ public class Person {
     }
 
     public String introduce() {
-        return "1";
+        return "My name is Tom.I am 21 years old.";
     }
 
     public int getAge() {
